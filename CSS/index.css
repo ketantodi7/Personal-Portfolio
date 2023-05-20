@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Mogra&family=Oswald:wght@300&display=swap');
+
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Mogra', cursive;
+font-family: 'Oswald', sans-serif; */
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+html{
+   min-height: 100%;
+}
+
+body{
+font-family: 'Oswald', sans-serif ;
+background-color: rgb(0 0 33);
+}
+
+.hr-holder{
+padding: 90px 0px;
+}
+
+.hr{
+   border: 0;
+   height: 2px;
+   width: 80%;
+   margin: auto;
+   background-color:#49d1e2d6;
+
+}
+
+
+/* nav bar css start */
+
+nav{
+   font-size: 18px;
+   background-color: rgba(18, 210, 230, 0.2);
+   border-radius: 0px 0px 30px 30px;
+   color: #5bb9b9;
+}
+
+.nav-holder{
+   height: 100px;
+}
+
+
+.link ul li{
+   list-style: none;
+   padding:0px 0px 0px 75px;
+}
+.link ul li a{
+   text-decoration: none;
+   color: #5bb9b9;
+}
+
+/* nav bar end  */
+
+/* home css start / section 1 */
+.sec-1{
+   height: 100%;
+   background-color: rgb(0 0 33);
+}
+.home-con{
+height: 100%;
+align-items: center;
+}
+
+.h-text{
+   width: 50%;
+   font-size: 3rem;
+   color: #ffffffd6;
+   font-family: 'Dosis', sans-serif
+}
+
+.h-pic{
+margin: 50px 0px 0px 0px ;
+width: 50%;
+}
+
+.h-pic img{
+width: 75%;
+}
+
+.blue{
+   color: #50eba6 ;
+   font-size: 7rem;
+}
+
+.h-in-text{
+   padding:0px 0px 0px 200px;
+}
+
+/* home css end  */
+
+
+
+
+/* Education / section 2 code start  */
+.sec-2{
+   background-color: rgb(0 0 33);
+}
+
+.con-title{
+color: white;
+padding: 0px 0px 0px 150px;
+font-size: 3rem;
+text-decoration: underline;
+}
+
+.edu-sec{
+   padding: 0px 0px 0px 200px;
+   height: 100%;
+}
+
+.edu-col{
+   padding: 80px 0px 0px 0px ;
+}
+
+.edu-text{
+   width: 60%;
+   
+}
+
+.edu-t-head{
+   text-transform: uppercase;
+   color: white;
+   text-decoration: underline;
+   font-size: 1.5rem;
+   padding: 0px 0px 50px 0px;
+}
+
+.edu-pic{
+   padding: 50px 0px 0px 0px;
+}
+.edu-pic img{
+   width: 65%;
+   height: 100%;
+}
+
+.edu-t-info{
+   text-transform: capitalize;
+    color: white;
+    font-size: 1rem;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+/* Education / section 2 code end  */
+
+
+
+
+/* Skill / section 3 code start  */
+
+.sec-3{
+   background-color: black;
+}
+
+.skill-pro-holder{
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 32px;
+justify-items: center;
+}
+
+.pro-bar{
+   width: 60%;
+   padding: 38px;
+   box-shadow: 0px 0px 29px -9px rgba(255,255,255,1);
+   border-radius: 20px;
+}
+
+.pro-hd{
+   justify-content: space-between;
+   padding: 0px 13px;
+}
+
+.pro-hd .h1 , .h2{
+font-family:'Oswald', sans-serif;
+text-transform: uppercase;
+padding: 0px 0px 10px 0px ;
+}
+
+.bar{
+   height: 20px;
+   background-color: rgba(77, 118, 144, 0.677);
+   border-radius:40px ;
+   border: none;
+}
+
+.in-bar{
+   border-radius:40px ;
+   background-color: #0effff;
+   height: 100%;
+   border: none;
+}
+
+.pb1{
+   width: 85%;
+}
+.pb2{
+   width:  75%;
+}
+.pb3{
+   width: 75%;
+}
+.pb4{
+   width: 80%;
+}
+.pb5{
+   width: 70%;
+}
+.pb6{
+   width: 50%;
+}
+.pb7{
+   width: 70%;
+}
+.pb8{
+   width: 70%;
+}
+
+
+.bottom-pad{
+   padding: 0px 0px 70px 150px;
+}
+
+/* Skill / section 3 code end  */
+
+
+/* projects / section 4 code start  */
+
+
+/* projects / section 4 code end  */
